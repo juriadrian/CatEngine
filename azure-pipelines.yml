@@ -1,5 +1,4 @@
 # ASP.NET Core
-
 # Build and test ASP.NET Core projects targeting .NET Core.
 # Add steps that run tests, create a NuGet package, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
@@ -20,3 +19,7 @@ steps:
 - task: task-test@0
   inputs:
     samplestring: 'hola'
+
+- task: task-test@0
+  inputs:
+    samplestring: 'Guille o WIll'
