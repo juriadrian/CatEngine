@@ -18,8 +18,4 @@ steps:
 
 - task: task-test@0
   inputs:
-    samplestring: 'hola'
-
-- task: task-test@0
-  inputs:
-    samplestring: 'Guille o WIll'
+    samplestring: 'human'
